@@ -1,0 +1,16 @@
+{
+"companyName": "SteffinRayen",
+"productName": "SuperHexagon - Replica",
+"productVersion": "0.1",
+"dataUrl": "SuperHexagon Replica.data.unityweb",
+"wasmCodeUrl": "SuperHexagon Replica.wasm.code.unityweb",
+"wasmFrameworkUrl": "SuperHexagon Replica.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": true,
+"multithreading": false,
+"unityVersion": "2019.3.9f1"
+}
