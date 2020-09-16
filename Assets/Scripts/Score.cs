@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Score : MonoBehaviour {
-    public static int PinCount = 0;
+    public static int HexCount = 0;
     public Text score;
     void Update(){
-        score.text = PinCount.ToString();
+        score.text = HexCount.ToString();
+        transform.Rotate(Vector3.forward, Time.deltaTime * 20f);
     }
 }
